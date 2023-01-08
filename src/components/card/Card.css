@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px) {
+.card
+{
+    text-align: center;
+}
+}
+.card:hover 
+{
+    transition-duration: 0.4s;
+    background-color: #e1e1e1;
+}
+.setBorderRadius
+{
+border-radius: 50%;
+}

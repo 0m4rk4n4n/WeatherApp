@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.celsiusBtn {
+    width: 50px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    cursor: pointer;
+    color:rgb(114, 89, 89);
+    box-shadow: inset 0px 0px 10px 0px rgba(185, 184, 184, 0.7) !important;
+
+}
+
+.celsiusBtn:focus {
+    outline: none;
+}
+
+.fahrenheitBtn:focus {
+    outline: none;
+}
+
+.fahrenheitBtn {
+    width: 50px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    outline: none;
+    cursor: pointer;
+    color:rgb(114, 89, 89);
+    box-shadow: inset 0px 0px 10px 0px rgba(203, 194, 194, 0.7) !important;
+}
+
+.selectedBtn {
+    background-color: #0080ff !important;
+    color: #fff;
+    transition-duration: 0.5s;
+}
+
+.defaultColorForCelsius {
+    background-color: #0080ff;
+}
+
+.horizontalLine {
+    background-color: grey;
+    height: 2px;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+
+.otherData
+{
+    background-color: rgb(242, 239, 239);
+    min-height: 38vh;
+    border-radius: 30px;
+    margin:50px;
+    padding:10px;
+    width:85%;
+    display: block;
+    margin:10px auto;
+    box-shadow: inset 0px 0px 10px 0px rgba(148, 145, 145, 0.7) !important;
+}
+@media only screen and (max-width: 1295px) {
+.changeDisplayForMobile
+{
+    flex-direction: column;
+    text-align: center !important;
+}
+.otherData
+{
+ padding:20px;
+ margin: 30px;   
+}
+}

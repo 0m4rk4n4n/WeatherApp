@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* this google font has been imported in the index.html file that is located in the public folder */
+}
+
+.main {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 100%;
+    padding-bottom: 75px;
+    width: 100%;
+}
